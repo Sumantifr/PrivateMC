@@ -3,11 +3,12 @@ Private FullSIM production of MC samples for Run3-2024
 
 Once you are at your favorite path on lxplus:
 
-- cmsrel CMSSW_15_0_9  
+- cmsrel CMSSW_14_2_0  
 
-- cd CMSSW_15_0_9/src 
+- cd CMSSW_14_2_0/src 
 
 - git clone https://github.com/Sumantifr/PrivateMC.git .
+  
   *Don't forget .*
 
 - scram b -j16
