@@ -17,6 +17,8 @@ For submitting crab jobs:
 
 - cd Configuration/GenProduction/test/
 
+- mkdir Gridpacks
+
 - Put the relevant gridpack to `Gridpacks` directory
 
   (VBF XtoYH gridpacks are in: `/eos/user/c/chatterj/XtoYH/Run3/VBF/Gridpacks/`)
