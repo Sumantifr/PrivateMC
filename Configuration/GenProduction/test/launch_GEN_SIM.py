@@ -6,7 +6,7 @@ import imp, os, sys
 from optparse import OptionParser
 import re
 
-cfgPath    = os.path.expandvars( "$CMSSW_BASE/src/Configuration/GenProduction/python" )
+cfgPath    = os.path.expandvars( "$CMSSW_BASE/src/Configuration/GenProduction/test" )
 allConfigs = [ x.split(".")[0] for x in os.listdir( cfgPath ) if x.endswith(".py") and x.startswith("step") ]
 
 parser = OptionParser(usage="python launch.py [options] component1 [ component2 ...]", \
