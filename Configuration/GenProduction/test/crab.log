@@ -1,0 +1,6 @@
+DEBUG 2026-07-03 12:19:47.067 UTC: 	 CRAB Client version: v3.251020
+DEBUG 2026-07-03 12:19:47.067 UTC: 	 Running on: Linux lxplus984.cern.ch 5.14.0-687.12.1.el9_8.x86_64 #1 SMP PREEMPT_DYNAMIC Mon May 25 06:29:57 EDT 2026 x86_64 x86_64 x86_64 GNU/Linux
+DEBUG 2026-07-03 12:19:47.067 UTC: 	 Not using Singularity
+DEBUG 2026-07-03 12:19:47.067 UTC: 	 Operating System: Red Hat Enterprise Linux 9.8 (Plow)
+DEBUG 2026-07-03 12:19:47.068 UTC: 	 Executing command: 'resubmit'
+DEBUG 2026-07-03 12:19:47.070 UTC: 	 Found CRAB cache file /afs/cern.ch/user/c/chatterj/.crab3
