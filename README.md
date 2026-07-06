@@ -23,6 +23,10 @@ For submitting crab jobs:
 
   (VBF XtoYH gridpacks are in: `/eos/user/c/chatterj/XtoYH/Run3/VBF/Gridpacks/`)
 
+- Before crab job submission:
+   - Setup environment: source /cvmfs/cms.cern.ch/crab3/crab.sh
+   - Create a VOMS proxy: voms-proxy-init -rfc -voms cms -valid 48:00
+
 - Use: submit_GEN.sh
 
 - Put correct gridpack/input sample and uncomment the corresponding step   

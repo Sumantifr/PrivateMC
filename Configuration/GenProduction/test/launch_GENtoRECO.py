@@ -57,7 +57,7 @@ config.Data.unitsPerJob = options.unitsPerJob
 config.Data.totalUnits  = options.totalUnits
 config.Data.publication = options.publish
 config.Data.publishDBS = 'phys03'
-config.Data.outputDatasetTag     = 'NMSSM_VBF_XtoYHto4b_'+mass_label+options.production_label
+config.Data.outputDatasetTag     = options.production_label
 #config.Data.outputPrimaryDataset = config.General.requestName # dataset name
 
 config.Data.outLFNDirBase = '/store/user/%s/VBFXtoYHto4b/'% (getUsername())
